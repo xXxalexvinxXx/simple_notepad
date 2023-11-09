@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94dd2b49-f4a6-4c0c-a349-69d6c213b83b" name="Changes" comment="add fileReader and fileWriter template">
-      <change afterPath="$PROJECT_DIR$/Controller/Engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyMenu/Engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyMenu/Engine.py" afterDir="false" />
     </list>
@@ -13,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -57,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Model" />
+      <recent name="$PROJECT_DIR$/Controller" />
       <recent name="$PROJECT_DIR$/MyMenu" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/View" />
-      <recent name="$PROJECT_DIR$/Controller" />
-      <recent name="$PROJECT_DIR$/Model" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
