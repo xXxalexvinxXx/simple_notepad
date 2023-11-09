@@ -1,4 +1,5 @@
 from MyMenu import MyMenu as menu
+import Controller.Engine as eng
 
 
 def start():
@@ -14,10 +15,10 @@ def start():
         elif user_input == '4':
             print("all")
         elif user_input == '5':
-            print("note")
+            eng.add_note()
         elif user_input == '6':
             print("all")
         else:
-            print("Программа Журнал заметок завершена")
+            print("Программа Блокнот (Журнал заметок завершена)")
             break
 
