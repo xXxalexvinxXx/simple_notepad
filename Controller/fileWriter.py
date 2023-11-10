@@ -1,4 +1,4 @@
-import Moldel.Note
+import Model.Note
 
 def file_write(array, mode):
     file = open('notes.csv', mode  ='w', encoding = 'utf-8')

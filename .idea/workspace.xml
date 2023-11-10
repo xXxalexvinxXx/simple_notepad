@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94dd2b49-f4a6-4c0c-a349-69d6c213b83b" name="Changes" comment="add fileReader and fileWriter template">
-      <change afterPath="$PROJECT_DIR$/Controller/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/__init__.py" afterDir="false" />
+    <list default="true" id="94dd2b49-f4a6-4c0c-a349-69d6c213b83b" name="Changes" comment="refactor and change to match-case construction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyMenu/Engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyMenu/Engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +32,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -55,15 +56,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/home/alex/lerning/hw_np/simple_notepad",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alex/lerning/hw_np/simple_notepad&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Model" />
@@ -106,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699429998464</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor and change to match-case construction">
+      <option name="closed" value="true" />
+      <created>1699518113817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699518113817</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +133,7 @@
     <MESSAGE value="up" />
     <MESSAGE value="create note class" />
     <MESSAGE value="add fileReader and fileWriter template" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fileReader and fileWriter template" />
+    <MESSAGE value="refactor and change to match-case construction" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor and change to match-case construction" />
   </component>
 </project>

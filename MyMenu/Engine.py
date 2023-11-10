@@ -1,4 +1,4 @@
-from MyMenu import MyMenu as menu
+from MyMenu.MyMenu import MyMenu as menu
 import Controller.Engine as eng
 
 
@@ -30,7 +30,8 @@ def menu():
             case 4:
                 print('all')
             case 5:
-                eng.add_note()
+                print('add')
+                # eng.add_note()
             case 6:
                 print('all')
             case 7:

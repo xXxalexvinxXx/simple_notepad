@@ -1,5 +1,6 @@
-count = 0 //counter initialization
+count = 0 #counter initialization
 
 def counter():
-    global count +=1
+    global count
+    count += 1
     return count
