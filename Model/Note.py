@@ -2,7 +2,8 @@ from datetime import datetime
 import Controller.Counter as counter
 
 class Note:
-    def __init__(self, id = int(counter.counter()), title="Header", body = "main text", date = str(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))):
+    def __init__(self, id=str(counter.counter()), title="текст", body="текст",
+                 date=str(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))):
         self.id = id
         self.title = title
         self.body = body
@@ -21,7 +22,7 @@ class Note:
         return note.date
 
     def set_id(note):
-        note.id = int(counter.counter())
+        note.id = str(counter.counter())
 
     def set_title(note):
         note.title = note
@@ -33,4 +34,7 @@ class Note:
         note.date = str(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
 
     def to_string(note):
-        return note.id + ';\n' + note.title + ';\n' + note.body + ';\n' + note.date
+        return note.id + ';' + note.title + ';' + note.body + ';' + note.date
+
+    def map_note(note):
+        return '\nID: ' + note.id + '\n' + 'Название: ' + note.title + '\n' + 'Описание: ' + note.body + '\n' + 'Дата публикации: ' + note.date

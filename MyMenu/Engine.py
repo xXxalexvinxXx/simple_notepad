@@ -1,4 +1,5 @@
 import MyMenu.MyMenu as menu
+import Controller.Engine as engine
 
 
 def start():
@@ -6,17 +7,19 @@ def start():
         menu.draw_menu()
         user_input = input()
         if user_input == '1':
-            print("all")
+            engine.show('all')
         elif user_input == '2':
-            print("ID")
+            engine.show('ID')
         elif user_input == '3':
-            print("date")
+            engine.show('date')
         elif user_input == '4':
-            print("all")
+            engine.show('all')
+            engine.change_note()
         elif user_input == '5':
-            print("note")
+            engine.add_note()
         elif user_input == '6':
-            print("all")
+            engine.show('all')
+            engine.del_notes()
         else:
             print("Программа Журнал заметок завершена")
             break
