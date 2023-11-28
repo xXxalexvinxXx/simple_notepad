@@ -1,4 +1,4 @@
-from MyMenu import MyMenu as menu
+import MyMenu.MyMenu as menu
 
 
 def start():

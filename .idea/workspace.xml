@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94dd2b49-f4a6-4c0c-a349-69d6c213b83b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/Note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/simple_notepad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/loadFromFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/writeToFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyMenu/Engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyMenu/Engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyMenu/MyMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyMenu/MyMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyMenu/Skeleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyMenu/Skeleton.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +50,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/home/alex/lerning/hw_np/simple_notepad",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Учеба/Промежуточная контрольная работа по блоку специализация/Урок 1. Приложение заметки (Python)/simple_notepad",
     "settings.editor.selected.configurable": "preferences.sourceCode.Python"
   }
 }]]></component>
@@ -67,7 +81,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

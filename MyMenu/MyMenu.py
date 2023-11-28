@@ -1,7 +1,7 @@
 import MyMenu.Skeleton as skel
 
 def draw_menu():
-    skel.draw_menu("Главное меню\n Блокнот")
+    skel.draw_menu("Главное меню\n        Блокнот")
     print("1 - Показать блокнот\n"
           "2 - Показать заметку\n"
           "3 - Показать заметку по дате\n"
